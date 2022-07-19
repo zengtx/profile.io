@@ -1,0 +1,123 @@
+* {
+  /* 全局行间距 */
+  line-height: 1.5em;
+  /* 全局字间距 */
+  /* letter-spacing: 0.2em; */
+}
+body {
+  width: 100%;
+  margin: 0px auto;
+  background-color: #eee;
+  align-items: center;
+  /* text-align: center; */
+}
+/* 顶部会有一个空白，用这个消除 */
+h1 {
+  margin: 0%;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+h2 {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #999;
+}
+h3 {
+  font-weight: 100;
+  font-size: 1.5em;
+}
+h4 {
+  font-weight: 600;
+}
+p {
+  color: #999;
+}
+
+.top {
+  margin: 0px auto;
+  width: 100%;
+  background-color: #282828;
+  /* padding: 2em; */
+}
+.contents {
+  margin: 0 auto;
+  width: 80%;
+  color: #eee;
+  align-items: center;
+  display: flex;
+  /* 排列轴方向 */
+  flex-direction: row;
+  /* 排列换行方式 */
+  flex-wrap: nowrap;
+  /* 对齐方式 */
+  justify-content: space-between;
+  padding: 2em;
+}
+.slogan {
+  width: 50%;
+}
+
+.slogan-EN {
+  font-size: 1.2em;
+  font-weight: 600;
+  font-style: italic;
+  margin: 0px;
+  opacity: 0.5;
+}
+.portrait {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  /* overflow属性可以设置超出区域如何显示 */
+  overflow: hidden;
+}
+img {
+  width: 100%;
+}
+.about {
+  color: #eee;
+  margin: 0px auto;
+  width: 80%;
+  display: flex;
+  /* 排列轴方向 */
+  flex-direction: row;
+  /* 排列换行方式 */
+  flex-wrap: nowrap;
+  /* 对齐方式 */
+  justify-content: flex-start;
+  padding: 2em;
+}
+.BasicInformation {
+  margin: 0px;
+  padding: 0px;
+  width: 40%;
+}
+.discrible {
+  margin-left: 8em;
+}
+
+.bottom {
+  background-color: #eee;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.experience {
+  color: #282828;
+  margin: 0px auto;
+  width: 80%;
+  display: flex;
+  /* 排列轴方向 */
+  flex-direction: row;
+  /* 排列换行方式 */
+  flex-wrap: nowrap;
+  /* 对齐方式 */
+  justify-content: flex-start;
+  padding: 2em;
+}
+.left {
+  width: 40%;
+}
+.right {
+  margin-left: 8em;
+}
