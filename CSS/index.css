@@ -1,0 +1,112 @@
+/* *{
+    border:1px solid red;
+} */
+
+/* 样式 */
+body {
+  background-color: #eee;
+}
+.contents {
+  background-color: #282828;
+}
+.top {
+  width: 80%;
+  color: #eee;
+  /* align-items: flex-start; */
+  padding: 16px;
+  /* 居中对齐 */
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-weight: 800;
+  font-style: italic;
+  opacity: 50%;
+  margin: 0;
+  font-size: medium;
+}
+
+.left {
+  width: 32%;
+  flex: 2;
+}
+.right {
+  margin-left: 80px;
+  flex: 6;
+}
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.portrait {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  /* 图片裁剪 */
+  overflow: hidden;
+}
+
+/* 简介部分 */
+.about {
+  width: 80%;
+  margin: 0 auto;
+  padding: 32px 16px;
+  color: #eee;
+}
+
+
+.bottom {
+  width: 80%;
+  height: 500px;
+  padding: 32px 16px;
+  margin: 0 auto;
+}
+/* 分割线 */
+hr {
+  background-color: #282828;
+  width: 320px;
+  opacity: 50%;
+}
+
+/* 内容列表 */
+.progress{
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+/* 布局 */
+.flex-colum {
+  display: flex;
+  /* 垂直布局 */
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  /* 横向布局，可省略不写 */
+  flex-direction: row;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+}
+
+.flex-center {
+  display: flex;
+  /* 横向布局，可省略不写 */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.top24 {
+  margin-top: 24px;
+}
+.top16 {
+  margin-top: 16px;
+}
+
+
+/* 点赞 */
+#dzs{
+  margin-top: 32px;
+}
+.dzs{
+  margin-top: 32px;
+}

@@ -1,0 +1,33 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+h4{
+    font-size: 24px;
+    font-weight: 100;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    display: block;
+    margin-top: 8px;
+}
+p{
+    line-height: 2em;
+    color: #999;
+    margin-top: 16px;
+}
